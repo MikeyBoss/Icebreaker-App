@@ -1,0 +1,19 @@
+{
+  "name": "Icebreaker",
+  "version": "0.1",
+  "description": "The Icebreaker Project is an app designed to help break the ice and introduce people.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
+  },
+  "author": "Icebreaker Team",
+  "license": "",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
