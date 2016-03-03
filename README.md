@@ -6,7 +6,7 @@ This benefits people's comfort at the event, their interpersonal networks, as we
 The project is part of a Capstone graduation Project and as such external contribution is limited. See CONTRIBUTING.
 ### The Project consists of two parts:
 - The cross platform app written in HTML/CSS/Javascript using the [Phonegap](https://www.phonegap.com) framework and buildkit.
-- The [Icebreaker-Server]() acting as the backend.
+- The [Icebreaker-Server](https://github.com/Icebreaker-Project/Icebreaker-Server) acting as the backend.
 
 ## App outline
 - The App is the main part of the Project, written with the [Phonegap](https://www.phonegap.com) Framework.
