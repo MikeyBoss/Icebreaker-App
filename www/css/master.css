@@ -1,0 +1,27 @@
+/* This CSS file is used by every page, and defines the overall theme. */
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url(res/background.png);
+
+    font-family: "Noto Sans"
+}
+.app{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;  
+
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin: auto;
+    padding: 0;
+}
+.app h1{
+    align-self: center;
+}

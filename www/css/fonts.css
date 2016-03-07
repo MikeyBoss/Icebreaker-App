@@ -1,0 +1,25 @@
+/* This file defines the custom fonts and should be imported into every page */
+@font-face{
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('res/fonts/NotoSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'Noto Sans Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url('res/fonts/NotoSans-Bold.ttf');
+}
+@font-face{
+    font-family: 'Noto Sans Italic';
+    font-weight: normal;
+    font-style: italic, oblique;
+    src: url('res/fonts/NotoSans-Italic.ttf');
+}
+@font-face{
+    font-family: 'Noto Sans Bold-Italic';
+    font-weight: bold;
+    font-style: italic, oblique;
+    src: url('res/fonts/NotoSans-BoldItalic.ttf');
+}
