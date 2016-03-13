@@ -1,13 +1,18 @@
 /* This CSS file is used by every page, and defines the overall theme. */
 
+*{
+    font-size: 150%;    
+}
+
 body{
     margin: 0;
     padding: 0;
 
-    background-image: url(res/background.png);
+    background-image: url(../res/background.png);
 
     font-family: "Noto Sans"
 }
+
 .app{
     display: -webkit-box;
     display: -moz-box;
@@ -16,12 +21,16 @@ body{
     display: flex;  
 
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
 
     margin: auto;
     padding: 0;
-}
-.app h1{
-    align-self: center;
+
+    /* This is used for the loading/unloading animations */
+    opacity: 0.0; 
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
 }
